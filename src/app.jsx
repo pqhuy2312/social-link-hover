@@ -39,7 +39,7 @@ const CONTACTS = [
 export function App() {
   return (
     <div className="flex justify-center items-center shadown-md p-12 rounded border border-gray-500 shadow-md">
-      <ul className="flex gap-x-5">
+      <ul className="grid grid-cols-3 gap-4">
         {CONTACTS.map(({ Icon, color, link }, index) => (
           <li
             style={{ "--color": color }}
